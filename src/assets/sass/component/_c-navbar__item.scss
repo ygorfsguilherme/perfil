@@ -1,0 +1,8 @@
+.c-navbar__item {
+	padding: 15px;
+	box-sizing: border-box;
+
+	&:hover {
+		border-bottom: 3px solid $blue60;
+	}
+}

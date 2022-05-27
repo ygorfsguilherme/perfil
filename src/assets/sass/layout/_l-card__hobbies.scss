@@ -1,0 +1,10 @@
+.l-card__hobbies {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 300px;
+    background-color: $blue40;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
