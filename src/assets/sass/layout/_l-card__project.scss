@@ -1,0 +1,14 @@
+.l-card__project {
+  @include box-shadow;
+  background-color: $blue40;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 265px;
+  max-width: 360px;
+  min-width: 310px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}

@@ -1,8 +1,9 @@
 .c-card__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2px;
-    height: 90px;
-    width: 90px;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  padding: 6px;
+  width: 75px;
 }

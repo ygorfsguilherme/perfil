@@ -2,4 +2,4 @@
 import * as skills from "./modules/skills.js"
 import * as hobbies from "./modules/hobbies.js"
 //import * as education from "./modules/education.js"
-//import * as project from "./modules/project.js"
+import * as project from "./modules/project.js"

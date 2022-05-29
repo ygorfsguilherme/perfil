@@ -1,0 +1,17 @@
+.c-card__project__link {
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+
+  &--view {
+    background: url("/src/assets/img/icon/eyes.svg") no-repeat center center;
+    height: 30px;
+    width: 30px;
+  }
+
+  &--code {
+    background: url("/src/assets/img/icon/code.svg") no-repeat center center;
+    height: 30px;
+    width: 30px;
+  }
+}

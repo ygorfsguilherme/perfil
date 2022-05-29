@@ -1,6 +1,21 @@
 .l-about__area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .l-about__area {
+    flex-direction: column;
+
+    .l-perfil__area {
+      order: 0;
+      align-self: center;
+    }
+
+    .c-about__me {
+      order: 1;
+    }
+  }
 }

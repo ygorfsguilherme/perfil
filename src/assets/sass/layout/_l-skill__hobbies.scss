@@ -1,0 +1,24 @@
+.l-skill__hobbies {
+  display: flex;
+}
+
+@media screen and (min-width: 0) {
+  .l-skill__hobbies {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 690px) {
+  .l-skill__hobbies {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .l-skill__hobbies {
+    align-self: center;
+    flex-direction: column;
+  }
+}

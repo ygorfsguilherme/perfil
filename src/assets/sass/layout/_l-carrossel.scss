@@ -1,11 +1,11 @@
 .l-carrossel {
-    display: flex;
-    flex-direction: row;
-    height: 90px;
-    width: 300px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
-    background-color: $blue40;
-    border-radius: 5px;
-    align-items: center;
-    overflow: hidden;
+  @include box-shadow;
+  align-items: center;
+  background-color: $blue40;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  overflow: hidden;
+  width: 300px;
 }

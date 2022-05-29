@@ -31,10 +31,8 @@ const templateHobbies = `
 
 const hobbies = {
 	'target': document.querySelector('[data-hobbies]'),
-	'countCard' : 3,
-	'index' : 0,
+	'countCard' : infoHobbies.length - 1,
 	'position' : 300,
-	'limite': 1,
 };
 
 const hobbiesCard = new Card(infoHobbies, templateHobbies, '[data-hobbies]', 'l-card__hobbies');

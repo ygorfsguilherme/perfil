@@ -1,72 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>Ygor Guilherme</title>
-	<link rel="stylesheet" href="src/assets/css/style.css">
-	<script type="module" src="src/assets/js/main.js" defer></script>
-</head>
-<body>
-	<header class="l-container">
-		<nav class="l-navbar">
-			<a href="#" class="c-navbar__logo">YG</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-			<ul class="c-navbar__list">
-				<li class="c-navbar__item">
-					<a class="c-navbar__link" href="#about">Sobre</a>
-				</li>
+    <title>Ygor Guilherme</title>
+    <link rel="stylesheet" href="src/assets/css/style.css" />
+    <script type="module" src="src/assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="l-container">
+      <nav class="l-navbar">
+        <a href="#" class="c-navbar__logo">YG</a>
 
-				<li class="c-navbar__item">
-					<a class="c-navbar__link" href="#skills">Skills</a>
-				</li>
+        <ul class="c-navbar__list">
+          <li class="c-navbar__item">
+            <a class="c-navbar__link" href="#about">Sobre</a>
+          </li>
 
-				<li class="c-navbar__item">
-					<a class="c-navbar__link" href="#project">Projetos</a>
-				</li>
+          <li class="c-navbar__item">
+            <a class="c-navbar__link" href="#skills">Skills</a>
+          </li>
 
-				<li class="c-navbar__item">
-					<a class="c-navbar__link" href="#contact">Contato</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+          <li class="c-navbar__item">
+            <a class="c-navbar__link" href="#project">Projetos</a>
+          </li>
 
-	<main class="l-container">
-		<section class="l-about__area">
-			<div class="c-about__me">
-				<h2>Óla</h2>
-				<p>Sou, Ygor Guilherme entusiasta e estudante de desenvolvimento web { front-end }. Amante da aréa de TI, sou fascinado em estudar eletronica e programação, procuro sempre entender um pouco de tudo e ampliar os meus conhecimentos, desafios é o que eu mais gosto de resolver.</p>
+          <li class="c-navbar__item">
+            <a class="c-navbar__link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-				<a class="c-button" href="https://drive.google.com/file/d/1p7rflvDvYIxdgRCohd1PsSXTSssef6FC/view?usp=sharing" target="_blank">Ver Curriculo</a>
-			</div>
+    <main class="l-container">
+      <section class="l-about__area">
+        <div class="c-about__me">
+          <h2>Óla</h2>
+          <p>
+            Sou, Ygor Guilherme entusiasta e estudante de desenvolvimento web {
+            front-end }. Amante da aréa de TI, sou fascinado em estudar
+            eletronica e programação, procuro sempre entender um pouco de tudo e
+            ampliar os meus conhecimentos, desafios é o que eu mais gosto de
+            resolver.
+          </p>
 
-			<div class="l-perfil__area">
-				<img class="c-perfil__image" src="src/assets/img/perfil.jpg" alt="">
-			</div>
-		</section>
+          <a
+            class="c-button"
+            href="https://drive.google.com/file/d/1p7rflvDvYIxdgRCohd1PsSXTSssef6FC/view?usp=sharing"
+            target="_blank"
+            >Ver Curriculo</a
+          >
+        </div>
 
-		<section class="l-about__area">
+        <div class="l-perfil__area">
+          <img
+            class="c-perfil__image"
+            src="src/assets/img/perfil/me.jpg"
+            alt=""
+          />
+        </div>
+      </section>
 
-			<div class="l-skill__hobbies">
-				<h2>Hobbies</h2>
-				<div class="l-carrossel">
-					<div class="l-carrossel__container" data-hobbies></div>
-				</div>
+      <section class="l-about__area">
+        <div class="l-skill__hobbies">
+          <div>
+            <h2>Hobbies</h2>
+            <div class="l-carrossel">
+              <div class="l-carrossel__container" data-hobbies></div>
+            </div>
+          </div>
 
-				<h2>Skills</h2>
-				<div class="l-carrossel" >
-					<div class="l-carrossel__container" data-skills></div>
-				</div>
-			</div>
+          <div>
+            <h2>Skills</h2>
+            <div class="l-carrossel">
+              <div class="l-carrossel__container" data-skills></div>
+            </div>
+          </div>
+        </div>
 
-			<cite class="c-cite">
-				“Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que os humanos entendam.” - Martin Fowler
-			</cite>
-		</section>
-	</main>
-	<footer>
-		FOOTER
-	</footer>
-</body>
+        <cite class="c-cite">
+          “Qualquer um pode escrever um código que o computador entenda. Bons
+          programadores escrevem códigos que os humanos entendam.” - Martin
+          Fowler
+        </cite>
+      </section>
+
+      <section class="l-project__area">
+        <h2>Projetos</h2>
+        <article class="l-projects__container" data-projects></article>
+      </section>
+    </main>
+    <footer>FOOTER</footer>
+  </body>
+</html>
