@@ -4,14 +4,10 @@
   margin: 4px;
 
   &--view {
-    background: url("/src/assets/img/icon/eyes.svg") no-repeat center center;
-    height: 30px;
-    width: 30px;
+    background: url("../img/icon/eyes.svg") no-repeat center center;
   }
 
   &--code {
-    background: url("/src/assets/img/icon/code.svg") no-repeat center center;
-    height: 30px;
-    width: 30px;
+    background: url("../img/icon/code.svg") no-repeat center center;
   }
 }
