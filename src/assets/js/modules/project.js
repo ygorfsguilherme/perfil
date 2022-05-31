@@ -18,7 +18,7 @@ const projects = [
   },
 
   {
-    image: 'src/assets/img/project/project-portfolio.png',
+    image: 'src/assets/img/project/portfolio.png',
     title: 'Portfolio',
     description : 'Foi um dos desafio do programa ONE da oracle e alura, afim de colocar todos os meus projetos em um só lugar.',
     github_link: 'https://github.com/ygorfsguilherme/portfolio',
@@ -30,14 +30,14 @@ const projects = [
     title: 'Pyformail',
     description: 'Uma api que envia informações de um formulario para um email, criado para envia informações de contato.',
     github_link: 'https://github.com/ygorfsguilherme/api-pyformail',
-    view_app: 'https://github.com/ygorfsguilherme/api-pyformail#o-que-pyformail',
+    view_app: 'https://github.com/ygorfsguilherme/api-pyformail',
   },
   {
     image: 'src/assets/img/project/project-alura-geek.png',
     title: 'Alura Geek',
     description: 'Alura Geek é uma e-commerce que une uma gama de itens da cultura geek.',
     github_link: 'https://github.com/ygorfsguilherme/alura-geek',
-    view_app: 'https://github.com/ygorfsguilherme/alura-geek#descrição',
+    view_app: 'https://github.com/ygorfsguilherme/alura-geek',
   },
 ]
 

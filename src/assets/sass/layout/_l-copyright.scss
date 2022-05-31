@@ -1,0 +1,12 @@
+.l-copyright {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid $blue60;
+  margin-bottom: 10px;
+
+  .c-developer {
+    color: $blue60;
+    text-decoration: none;
+  }
+}

@@ -42,12 +42,10 @@ function createSkills() {
 	});
   
 	return newSkill.join('');
-  }
+}
 
 skillsArea.insertAdjacentHTML('afterbegin', createSkills());
 
 const skillCarrossel = new Carrossel(skillsInformation);
+skillCarrossel.start();
 
-setInterval(()=>{
-	skillCarrossel.move()
-}, 3500);

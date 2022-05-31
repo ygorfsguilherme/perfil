@@ -6,6 +6,12 @@ export class Carrossel{
 		this.index = 0;
 	}
 
+	start(time = 3500){
+		setInterval(()=>{
+			this.move()
+		}, time);
+	}
+
 	move(){
 		this.index++
 
