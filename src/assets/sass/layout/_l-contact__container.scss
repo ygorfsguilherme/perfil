@@ -1,4 +1,27 @@
 .l-contact__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 0) {
+  .l-contact__container {
+    flex-direction: column;
+
+    .l-social__area,
+    .l-contact__area {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 690px) {
+  .l-contact__container {
+    flex-direction: row;
+
+    .l-social__area,
+    .l-contact__area {
+      width: 50%;
+    }
+  }
 }
