@@ -1,0 +1,11 @@
+.alert {
+  background-color: $danger;
+  display: flex;
+  height: 51px;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  color: $danger-text;
+  margin-top: 0.4rem;
+}
