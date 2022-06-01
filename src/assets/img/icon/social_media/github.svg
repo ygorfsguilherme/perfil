@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="#000000"
+   viewBox="0 0 19.959482 19.38883"
+   width="39.918964"
+   height="38.77766"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="github.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.8541667"
+     inkscape:cx="14.663848"
+     inkscape:cy="20.093023"
+     inkscape:window-width="1360"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 8.8594817,0.06921528 c -4.6,0.5 -8.30000004,4.20000002 -8.80000004,8.70000002 -0.5,4.6999997 2.20000004,8.8999997 6.30000004,10.4999997 0.3,0.1 0.6,-0.1 0.6,-0.5 v -1.6 c 0,0 -0.4,0.1 -0.9,0.1 -1.4,0 -2,-1.2 -2.1,-1.9 -0.1,-0.4 -0.3,-0.7 -0.6,-1 -0.3,-0.1 -0.4,-0.1 -0.4,-0.2 0,-0.2 0.3,-0.2 0.4,-0.2 0.6,0 1.1,0.7 1.3,1 0.5,0.8 1.1,1 1.4,1 0.4,0 0.7,-0.1 0.9,-0.2 0.1,-0.7 0.4,-1.4 1,-1.8 -2.3,-0.5 -4,-1.8 -4,-3.9999997 0,-1.1 0.5,-2.2 1.2,-3 -0.1,-0.2 -0.2,-0.7 -0.2,-1.4 0,-0.4 0,-1 0.3,-1.6 0,0 1.4,0 2.8,1.3 0.5,-0.2 1.2,-0.3 1.9,-0.3 0.7000003,0 1.4000003,0.1 2.0000003,0.3 1.3,-1.3 2.8,-1.3 2.8,-1.3 0.2,0.6 0.2,1.2 0.2,1.6 0,0.8 -0.1,1.2 -0.2,1.4 0.7,0.8 1.2,1.8 1.2,3 0,2.1999997 -1.7,3.4999997 -4,3.9999997 0.6,0.5 1,1.4 1,2.3 v 2.6 c 0,0.3 0.3,0.6 0.7,0.5 3.7,-1.5 6.3,-5.1 6.3,-9.3 0,-5.9999997 -5.1,-10.69999972 -11.1000003,-9.99999972 z"
+     id="path2"
+     style="fill:#48b0d3;fill-opacity:1" />
+</svg>

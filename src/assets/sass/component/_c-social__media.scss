@@ -1,0 +1,32 @@
+.c-social__media {
+  width: 40px;
+  height: 40px;
+
+  &:hover {
+    animation: swing 0.4s infinite;
+  }
+
+  &--linkedin {
+    background: url("../img/icon/social_media/linkedin.svg") no-repeat;
+  }
+
+  &--github {
+    background: url("../img/icon/social_media/github.svg") no-repeat;
+  }
+
+  &--instagram {
+    background: url("../img/icon/social_media/instagram.svg") no-repeat;
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(1.1);
+  }
+}
