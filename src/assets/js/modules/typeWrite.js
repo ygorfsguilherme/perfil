@@ -1,5 +1,6 @@
 const message =
   "“Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que os humanos entendam.” - Martin Fowler";
+
 const cite = document.querySelector("[data-cite]");
 
 const typeWrite = (message) => {

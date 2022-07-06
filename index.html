@@ -8,8 +8,10 @@
     <script type="module" src="src/assets/js/main.js" defer></script>
   </head>
   <body>
-    <header class="l-container">
-      <nav class="l-navbar">
+
+
+    <header class="l-container" style="position: fixed;z-index: 100;">
+      <nav class="l-navbar" >
         <a href="#" class="c-navbar__logo">YG</a>
 
         <ul class="c-navbar__list">
@@ -36,8 +38,9 @@
       </nav>
     </header>
 
-    <main class="l-container">
-      <section class="l-about__area">
+
+    <main class="l-container" style="margin-top: 90px;">
+      <section class="l-about__area" id="about">
         <div class="c-about__me">
           <h2>Óla</h2>
           <p>
@@ -68,7 +71,7 @@
         </div>
       </section>
 
-      <section class="l-about__area">
+      <section class="l-about__area" id="skills">
         <div class="l-skill__hobbies">
           <div>
             <h2>Hobbies</h2>
@@ -91,11 +94,13 @@
         
       </section>
 
-      <section class="l-project__area">
+      <section class="l-project__area" id="project">
         <h2>Projetos</h2>
         <article class="l-projects__container" data-projects></article>
       </section>
     </main>
+
+
     <footer class="l-container">
       <div class="l-contact__container">
         <section class="l-social__area">
