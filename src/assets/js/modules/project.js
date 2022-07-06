@@ -47,9 +47,17 @@ const projects = [
     image: "src/assets/img/project/project-gmoney.png",
     title: "GMoney - Conversor",
     description:
-      "é um conversor de moeda sendo possivel converter para alguns tipos de moeda como dólar e real.",
+      "É um conversor de moeda sendo possivel converter para alguns tipos de moeda como dólar e real.",
     github_link: "https://github.com/ygorfsguilherme/gmoney-conversor",
     view_app: "https://github.com/ygorfsguilherme/gmoney-conversor",
+  },
+  {
+    image: "src/assets/img/project/project-alura-hotel.png",
+    title: "Alura Hotel",
+    description:
+      "É um aplicação para gerenciar cadastro de clientes do Alura Hotel.",
+    github_link: "https://github.com/ygorfsguilherme/AluraHotel",
+    view_app: "https://github.com/ygorfsguilherme/AluraHotel",
   },
 ];
 

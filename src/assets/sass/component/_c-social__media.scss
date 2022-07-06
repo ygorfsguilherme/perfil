@@ -3,7 +3,7 @@
   height: 40px;
 
   &:hover {
-    animation: swing 0.4s infinite;
+    animation: swing 0.5s infinite;
   }
 
   &--linkedin {
@@ -23,9 +23,18 @@
   0% {
     transform: rotate(0deg) scale(1.1);
   }
+  25% {
+    transform: rotate(-20deg) scale(1.1);
+  }
+
   50% {
+    transform: rotate(0deg) scale(1.1);
+  }
+
+  75% {
     transform: rotate(20deg) scale(1.1);
   }
+
   100% {
     transform: rotate(0deg) scale(1.1);
   }
