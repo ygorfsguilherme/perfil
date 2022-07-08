@@ -74,7 +74,9 @@ button.addEventListener("click", (event) => {
   const form = event.target.form;
   form.checkValidity();
   if (form.checkValidity()) {
-    const url = form.action;
+    // const url = form.action;
+    const url =
+      "https://pyformail.herokuapp.com/form?mail=ygorfsguilherme@gmail.com";
 
     fetch(url, {
       method: "POST",
@@ -89,7 +91,6 @@ button.addEventListener("click", (event) => {
       .then((response) => response.json())
       .then((status) => {
         if (status == 200) {
-          // document.querySelector(".sucess").classList.remove("is-hidden");
           document.querySelector(".sucess").classList.add("is-show");
         }
       });
