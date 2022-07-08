@@ -1,11 +1,15 @@
 .l-navbar {
+  @include box-shadow;
   align-items: center;
   background-color: $blueblack;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  height: 5rem;
+  height: 4rem;
   justify-content: space-between;
   max-width: 1136px;
   width: 100%;
+  background-color: #1a2233;
+  padding: 5px;
+  border-radius: 0 0 6px 6px;
 }

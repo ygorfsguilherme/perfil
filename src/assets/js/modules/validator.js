@@ -67,3 +67,31 @@ fields.forEach((field) => {
 
   field.addEventListener("blur", customValidation);
 });
+
+const button = document.querySelector("button[type=submit]");
+button.addEventListener("click", (event) => {
+  event.preventDefault();
+  const form = event.target.form;
+  form.checkValidity();
+  if (form.checkValidity()) {
+    const url = form.action;
+
+    fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json;charset=UTF-8" },
+      body: JSON.stringify({
+        nome: form.name.value,
+        assunto: form.assunto.value,
+        email: form.email.value,
+        mensagem: form.message.value,
+      }),
+    })
+      .then((response) => response.json())
+      .then((status) => {
+        if (status == 200) {
+          // document.querySelector(".sucess").classList.remove("is-hidden");
+          document.querySelector(".sucess").classList.add("is-show");
+        }
+      });
+  }
+});

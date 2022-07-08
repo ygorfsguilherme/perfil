@@ -11,7 +11,7 @@
 
 
     <header class="l-container" style="position: fixed;z-index: 100;">
-      <nav class="l-navbar" >
+      <nav class="l-navbar">
         <a href="#" class="c-navbar__logo">YG</a>
 
         <ul class="c-navbar__list">
@@ -39,7 +39,7 @@
     </header>
 
 
-    <main class="l-container" style="margin-top: 90px;">
+    <main class="l-container" style="margin-top: 45px;">
       <section class="l-about__area" id="about">
         <div class="c-about__me">
           <h2>Óla</h2>
@@ -119,15 +119,21 @@
 
         <section class="l-contact__area" id="contact">
           <h2>Contato</h2>
-          <form action="#" class="l-form" data-form>
+          <form action="http://pyformail.herokuapp/form?mail=ygorfsguilherme@gmail.com" method="POST" class="l-form" data-form>
             <div class="c-input__container">
-              <input class="c-input" type="text" id="name" required />
-              <label class="c-input__label" for="name">Nome</label>
+              <input class="c-input" type="text" id="name" name="nome" required />
+              <label class="c-input__label" for="nome">Nome</label>
               <span class="alert is-hidden"></span>
             </div>
 
             <div class="c-input__container">
-              <input class="c-input" type="email" id="email" required />
+              <input class="c-input" type="text" id="assunto" name="assunto" required />
+              <label class="c-input__label" for="assunto">Assunto</label>
+              <span class="alert is-hidden"></span>
+            </div>
+
+            <div class="c-input__container">
+              <input class="c-input" type="email" id="email" name="email" required />
               <label class="c-input__label" for="email">E-mail</label>
               <span class="alert is-hidden"></span>
             </div>
@@ -138,6 +144,7 @@
                 type="text"
                 id="message"
                 required
+                name="mensagem"
               ></input>
               <label class="c-textarea__label" for="message"
                 >Escreva sua mensagem</label
@@ -145,7 +152,12 @@
               <span class="alert is-hidden"></span>
             </div>
 
-            <button class="c-button" type="submit">Enviar mensagem</button>
+            <div class="sucess is-hidden">
+              <img class="sucess__icon" src="src/assets/img/icon/check.svg">
+              <p>Mensagem enviada com sucesso!</p>
+            </div>
+
+            <button class="c-button" type="submit" data-form-button>Enviar mensagem</button>
           </form>
         </section>
       </div>
