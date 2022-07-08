@@ -74,9 +74,7 @@ button.addEventListener("click", (event) => {
   const form = event.target.form;
   form.checkValidity();
   if (form.checkValidity()) {
-    // const url = form.action;
-    const url =
-      "https://pyformail.herokuapp.com/form?mail=ygorfsguilherme@gmail.com";
+    const url = form.action;
 
     fetch(url, {
       method: "POST",
