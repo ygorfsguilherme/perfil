@@ -3,9 +3,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 250px;
   position: relative;
-  overflow: hidden;
-  padding: 10px;
+  margin: 0 auto;
+  animation: neon_pulse 2.4s infinite;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+@keyframes neon_pulse {
+  0% {
+    filter: drop-shadow(-3.5px 0px 0px #387c96)
+      drop-shadow(3.5px 0px 0px #387c96) drop-shadow(0px -3.5px 0px #387c96)
+      drop-shadow(0px 3.5px 0px #387c96) drop-shadow(0px 0px 4px #387c96);
+  }
+
+  50% {
+    filter: drop-shadow(-3.5px 0px 0px #387c96)
+      drop-shadow(3.5px 0px 0px #387c96) drop-shadow(0px -3.5px 0px #387c96)
+      drop-shadow(0px 3.5px 0px #387c96);
+  }
+
+  100% {
+    filter: drop-shadow(-3.5px 0px 0px #387c96)
+      drop-shadow(3.5px 0px 0px #387c96) drop-shadow(0px -3.5px 0px #387c96)
+      drop-shadow(0px 3.5px 0px #387c96) drop-shadow(0px 0px 4px #387c96);
+  }
 }
