@@ -1,8 +1,8 @@
-.alert__sucess {
+.alert__warning {
   @include box-shadow;
   display: flex;
   align-items: center;
-  background: #267539;
+  background: #c38808;
   border-radius: 6px;
   padding: 10px;
   height: 51px;
@@ -11,13 +11,13 @@
 
   &::before {
     display: flex;
-    content: url("../img/icon/check.svg");
+    content: url("../img/icon/exclamation.svg");
     justify-content: center;
     height: 20px;
     width: 20px;
     padding: 5px;
     margin-right: 10px;
     border-radius: 50%;
-    background: #195727;
+    background: #9b6c05;
   }
 }

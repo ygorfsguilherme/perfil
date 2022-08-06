@@ -72,8 +72,9 @@ const button = document.querySelector("button[type=submit]");
 button.addEventListener("click", (event) => {
   event.preventDefault();
   const form = event.target.form;
-  form.checkValidity();
+
   if (form.checkValidity()) {
+    document.querySelector(".alert__warning").classList.add("is-show");
     const url = form.action;
 
     fetch(url, {
@@ -89,7 +90,8 @@ button.addEventListener("click", (event) => {
       .then((response) => response.json())
       .then((status) => {
         if (status == 200) {
-          document.querySelector(".sucess").classList.add("is-show");
+          document.querySelector(".alert__warning").classList.remove("is-show");
+          document.querySelector(".alert__sucess").classList.add("is-show");
         }
       });
   }
